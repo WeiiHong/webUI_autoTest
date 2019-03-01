@@ -1,6 +1,8 @@
-import unittest
+﻿import unittest
 import HTMLTestRunner
 import os
+import sys
+sys.path.append("C:\\Users\\lenovo203\\PycharmProjects\\untitled1\\")
 dir='./'
 # c_path=os.path.dirname(os.path.realpath(__file__))
 c_path=os.path.dirname(os.path.abspath('.'))

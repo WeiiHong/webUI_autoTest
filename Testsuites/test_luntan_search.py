@@ -1,6 +1,8 @@
-import unittest
+﻿import unittest
+import sys
 from Testsuites.Base_testcase import Base_testcase
 from Pageobjects.luntan_homepage_one import Luntan_one
+sys.path.append("C:\\Users\\lenovo203\\PycharmProjects\\untitled1\\")
 class LuntanSearch_one(Base_testcase):
     def test_ltone(self):
         l=Luntan_one(self.driver)
